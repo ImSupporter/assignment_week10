@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 RUN apt-get update
-RUN apt-get install -y python3.10 git
+RUN apt-get install -y python3 git
 
 WORKDIR /root
 RUN mkdir A B C files
